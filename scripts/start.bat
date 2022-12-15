@@ -1,5 +1,0 @@
-powershell -c "./docker/docker.exe stop myserver"
-powershell -c "./docker/docker.exe rm myserver"
-powershell -c "./docker/docker.exe rmi nodejs-server"
-powershell -c "./docker/docker.exe import docker-container/node-web-app.tar nodejs-server"
-powershell -c "./docker/docker.exe run -p 49188:8080 --name myserver -it nodejs-server /bin/bash -c 'cd /usr/src/app && node server.js'"
