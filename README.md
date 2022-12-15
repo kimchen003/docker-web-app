@@ -27,7 +27,7 @@ os: window 10
 <img src="./images/docker-run.png" width="500px" />
 
 ### Verification
-Open in browser `http://localhost:49188/`
+Open in browser http://localhost:49188/
 
 ## Plan B
 Deploy the nodejs service environment directly on the current server, and the database may be installed later
@@ -40,5 +40,5 @@ Deploy the nodejs service environment directly on the current server, and the da
 <img src="./images/node-run.png" width="500px" />
 
 ### Verification
-Open in browser `http://localhost:8080/`
+Open in browser http://localhost:8080/
 
