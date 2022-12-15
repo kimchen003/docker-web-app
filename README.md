@@ -29,7 +29,7 @@ os: window 10
 ### Verification
 Open in browser `http://localhost:49188/`
 
-### Plan B
+## Plan B
 Deploy the nodejs service environment directly on the current server, and the database may be installed later
 
 ### Install nodejs and start service
